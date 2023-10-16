@@ -3,8 +3,13 @@
 #include <SDL.h>
 
 void Game::init()
-{   
-    Space *space = new Space(screenWidth, screenHeight, numStars, numDistantStars);
+{
+    space = new Space(screenWidth, screenHeight, numStars, numDistantStars);
+}
+
+Game::~Game()
+{
+    delete space;
 }
 
 void Game::tickLogic() 

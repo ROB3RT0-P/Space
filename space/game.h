@@ -8,7 +8,7 @@ class Game {
 public:
 	void init();
 	void tickLogic();
-
+	~Game();
 private:
 	Space* space;
 	const float deltaTime = 0.016f;
