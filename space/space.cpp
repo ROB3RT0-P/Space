@@ -1,3 +1,7 @@
+/*******************************************
+    Written by Robert Parry [RJP] - 2023    
+*******************************************/
+
 #include "Space.h"
 #include <SDL_image.h>
 #include <iostream>
